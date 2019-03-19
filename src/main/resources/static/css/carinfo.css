@@ -1,0 +1,249 @@
+body {
+    background: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+
+.carinfo {
+    background: #fff;
+    padding: 10px 0px;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: 1170px;
+}
+
+@media (min-width: 992px)
+.container {
+    width: 970px;
+}
+
+@media (min-width: 768px)
+.container {
+    width: 750px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rheader {
+    background: #1baadb;
+    height: 48px;
+    line-height: 48px;
+    position: relative;
+    text-align: center;
+}
+
+.rheader .kefu {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    bottom: 0px;
+}
+
+
+.r-title h2 img {
+    margin-right: 4px;
+    position: relative;
+    top: -1px;
+}
+
+
+
+.carinfo .text p {
+    margin-top: 5px;
+    border-top: 1px solid #e7e7e7;
+    padding-top: 5px;
+    line-height: 1.8;
+}
+
+.carinfo .text p span {
+    color: #888;
+}
+
+.rheader .kefu a {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    background: #f2a654;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+
+.rheader h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 48px;
+}
+
+.r-title h2 {
+    font-size: 14px;
+    color: #5a5a5a;
+    margin: 0px;
+    padding: 0px;
+    line-height: 42px;
+    display: inline-block;
+}
+
+.r-title .more {
+    float: right;
+}
+
+.r-title {
+    background: #fff;
+    padding: 0px 15px;
+    border-bottom: 1px solid #f2f2f2;
+    line-height: 42px;
+    height: 42px;
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.carinfo .text h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-top: 5px;
+}
+
+
+.carinfo .picture img {
+    display: block;
+    width: 80px;
+    height: 80px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.carinfo .text {
+    padding-left: 90px;
+}
+
+.carinfo .picture {
+    float: left;
+    width: 80px;
+}
+
+.rinfo #table tbody td {
+    border-top: 1px solid #f2f2f2;
+    border-color: #f2f2f2;
+}
+
+
+.layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.rinfo #table tbody td span {
+    color: #888;
+}
+
+.layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.rinfo #table i.finish {
+    display: inline-block;
+    padding: 0px 5px;
+    line-height: 20px;
+    color: #fff;
+    background: #62a8ea;
+    border-radius: 2px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.rinfo #table tbody td {
+    border-top: 1px solid #f2f2f2;
+    border-color: #f2f2f2;
+}
+
+
+.xlist .tb {
+    width: 100%;
+    background: #fff;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.xlist .tb td {
+    border-bottom: 1px solid #f5f5f5;
+    line-height: 38px;
+    padding: 0px 10px;
+}
+
+.xlist .tb .detail .d-h {
+    width: 100%;
+    line-height: 1.6;
+    color: #888;
+    margin: 5px 0px;
+}
+
+.xlist .tb .detail .d-h .d-l {
+    float: left;
+    width: 65px;
+}
+
+.xlist .tb .detail .d-h .d-r {
+    padding-left: 65px;
+    color: #5a5a5a;
+}
+
+.xlist .tb i.delivery {
+    display: inline-block;
+    padding: 0px 5px;
+    line-height: 20px;
+    color: #fff;
+    background: #ff6c60;
+    border-radius: 2px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+xlist .tb .detail {
+    width: 100%;
+    display: table;
+    margin: 5px 0px;
+    position: relative;
+    line-height: initial;
+}
+
+.xlist .tb .detail .d-h .d-l {
+    float: left;
+    width: 65px;
+}
+
+
