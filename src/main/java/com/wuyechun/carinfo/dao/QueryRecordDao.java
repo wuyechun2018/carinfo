@@ -1,6 +1,8 @@
 package com.wuyechun.carinfo.dao;
 import java.util.List;
 import java.util.Map;
+
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
@@ -46,7 +48,14 @@ public class QueryRecordDao {
 	 * @return String
 	 */
 	private String getParamSql(Map<String, Object> param) {
-		return "";
+		StringBuffer sqlBuff=new StringBuffer();
+		//导航类型,1 代表全部
+		if(param.get("queryState")!=null&&StringUtils.isNotBlank(param.get("queryState").toString())){
+			sqlBuff.append(" AND T.query_state = '" + param.get("queryState").toString() + "'\n");
+		}
+		
+		//sqlBuff.append(" ORDER BY QUERY_TIME DESC");
+		return sqlBuff.toString();
 	}
 
 
